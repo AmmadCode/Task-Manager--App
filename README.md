@@ -22,4 +22,4 @@ A responsive task management application with priority filtering, deadline sorti
 
 1. Clone the repository
 ```bash
-git clone https://github.com/AmmadCodd/Task-Manager--App.git
+git clone https://github.com/AmmadCode/Task-Manager--App.git
