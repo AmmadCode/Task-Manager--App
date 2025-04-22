@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Scheduler</h1>
+       <div class="input-section">
+           <div class="task">
+               <label for="taskName">Task Name</label>
+               <input type="text" id="taskName" placeholder="Task name">
+           </div>
+           <div class="task">
+                <label for="taskDeadline">Task Date</label>
+                <input type="date" id="taskDeadline">
+           </div>
+          
+          <select id="taskPriority">
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+          </select>
+          <button class="add">Add Task</button>
+       </div>
+       <div class="filters">
+          <button >All Tasks</button>
+          <button >High Priority</button>
+          <button >Medium Priority</button>
+          <button >Low Priority</button>
+          <button >Sort by Deadline</button>
+        </div>
+
+        <div class="task-list" id="taskList">
+             <!-- Tasks will be added here dynamically -->
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
